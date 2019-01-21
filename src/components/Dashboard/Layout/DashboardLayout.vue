@@ -30,9 +30,9 @@
         <i class="nc-icon nc-bell-55"></i>
         <p>Notifications</p>
       </sidebar-link>
-      <sidebar-link to="/admin/notifications">
+      <sidebar-link to="/admin/notifications2">
         <i class="nc-icon nc-bell-55"></i>
-        <p>Notifications2</p>
+        <p>test</p>
       </sidebar-link>
     </side-bar>
     <div class="main-panel">

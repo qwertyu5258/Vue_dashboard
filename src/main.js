@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App.vue'
+import axios from 'axios'
 
 // LightBootstrap plugin
 import LightBootstrap from './light-bootstrap-main'
@@ -16,6 +17,8 @@ const router = new VueRouter({
   routes, // short for routes: routes
   linkActiveClass: 'nav-item active'
 })
+
+Vue.prototype.$http = axios
 
 /* eslint-disable no-new */
 new Vue({

@@ -15,9 +15,7 @@
               </l-table>
             </div>
           </card>
-
         </div>
-
         <div class="col-12">
           <card class="card-plain">
             <template slot="header">
